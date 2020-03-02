@@ -1,0 +1,171 @@
+.bg {
+  width: 1500px;
+  height: 866px;
+  background-image: url(img.png);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.header {
+  width: 1300px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  width: 360px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title__Contact {
+  font-size: 90px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+  line-height: 0.278;
+  margin-top: 0;
+  padding-top: 110px;
+}
+
+.title__text {
+  font-size: 17px;
+  font-family: "Raleway";
+  font-weight: 300;
+  color: rgb(38, 38, 38);
+  line-height: 1.471;
+  text-align: center;
+  z-index: 30;
+}
+
+.border {
+  border: 2px solid red;
+}
+/* --- body ------ */
+.body_content {
+  width: 1000px;
+  height: 559px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body_content_form {
+  width: 500px;
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* --- left block ------ */
+.form__box {
+  height: 50px;
+  background: #00c4c491;
+  font-size: 15px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  line-height: 1.667;
+  font-weight: 300;
+  z-index: 21;
+  box-sizing: border-box;
+}
+
+.special {
+  font-size: 15px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.667;
+  text-align: left;
+  z-index: 26;
+  background: #00c4c4;
+}
+
+.specialBIG {
+  height: 250px;
+}
+
+.borderG {
+  border: 1px solid green;
+}
+
+/* --- right block ------ */
+.body_content__inform {
+  width: 330px;
+  height: 169px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.body_content__inform__text {
+  height: 43px;
+  font-size: 17px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.light {
+  margin: 0;
+  font-weight: 300;
+}
+/* --- footer ------ */
+.footer {
+  width: 1500px;
+  height: 90px;
+  background: #262626;
+  position: absolute;
+  bottom: -90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Company__All_right_reserved_ {
+  font-size: 16px;
+  font-family: "Raleway";
+  color: rgb(185, 185, 185);
+  line-height: 1.563;
+  font-weight: 300;
+}
+
+.made {
+  font-size: 15px;
+  font-family: "Raleway";
+  color: rgb(185, 185, 185);
+  line-height: 1.667;
+}
+
+span {
+  color: red;
+}
+
+.form__input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 93%;
+  color: white;
+  border: 2px solid rgba(191, 185, 204, 0.02);
+
+  padding: 15px;
+}
+
+.form__input:focus {
+  border-color: #21c044;
+}
+
+input::placeholder {
+  color: rgb(97, 32, 105);
+  font-style: italic;
+  text-decoration: underline;
+  letter-spacing: 3px;
+}

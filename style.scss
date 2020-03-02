@@ -1,0 +1,875 @@
+
+
+ /* НУ почнемо !  */
+
+ .Cahee1 {
+    height: 1700px;
+    width: 1500px;
+    margin: auto;
+  }
+  
+  .Block_up {width: 1500px;
+  height: 1000px; 
+  background: #f9f8fb;
+  background-image: url(Cahee1/imgBG.png);
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Pacifico', cursive;}
+  
+  
+  .Block_down {width: 1500px;
+    height: 700px;
+  background: #00b1b1;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Pacifico', cursive;
+  
+  }
+  
+  .Block_up__header {
+    width: 1200px;
+    height: 147px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Block_up__header__nav {width: 585px;
+  height: 50px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  }
+  .Block_up__header__nav:hover .av:not(:hover){
+    color: grey;
+  }
+  
+  .av:hover {border-top: 3px solid red;}
+  
+  
+  
+  .Block_up__header__nav div { 
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    font-weight: bold;
+    line-height: 1.563;}
+  
+  .Block_up__content {height: 853; width: 1500px;}
+  
+  .Block_up__content__Fresh_Life {width: 400px; height: 270px;
+  margin-left: 165px;
+  margin-top: 200px;}
+  
+  .Fresh_Life {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    line-height: 0.417;
+    font-weight: 900;
+    text-align: left;
+  }
+  
+  .Fresh_Life__TEXT {
+    
+    font-size: 17px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    line-height: 1.588;
+    font-weight: 300;
+  }
+
+  .Cahee2 { background-color: rgb(255, 96, 51);}
+
+  
+  .GET_FREE_NOW {
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 3;
+    text-align: center;
+  }
+  
+  .scroll { 
+    background-image: url("Cahee1/scroll.png");
+    width: 24px;
+    height: 40px;
+    z-index: 13;
+  
+  margin-top: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 13px ;
+  }
+ 
+		
+		.scroll:hover {
+		background-image:url(frog.jpg);
+		height:1024px;
+    width:576px;
+    margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 13px;
+  z-index: 13;
+		}
+
+
+
+
+  
+
+
+  .Block_down {
+    height: 700px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+  
+  .Block_down__img
+  { height: 650px;
+    width: 650px;}
+  
+  
+  .Block_down__content {
+    width: 499px;
+      height: 188px;
+      margin-bottom: 300px;
+  }
+  
+  
+  
+  .About_Us {
+    font-size: 90px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.3;
+    z-index: 5;
+  }
+  
+  .Abore_Cahee_magna_aliqua__Ut_enim_ad_minim_veni {
+    font-size: 17px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 1.588;
+    text-align: left;
+  }
+  
+  /*--------------- Друга частина ! ------------------ */
+  
+  
+  .global_place{ box-sizing: border-box;
+    height: 790px;
+    width: 1500px;
+    margin: 0 auto;
+    
+    background: #70bfff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .global_place_content__inside_Left{
+    height: 460px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .box_with_text {
+    width: 400px;
+  height: 100px;
+  background: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    
+    color: rgb(38, 38, 38);
+    line-height: 5;
+    text-align: left;
+    position: relative;
+    padding-left: 35px;
+  }
+  
+  .good_box {
+    height: 100px;
+    width: 300px;
+    border-right: 1px solid black;
+  }
+  
+  .icon_position { position: absolute;
+  right: 20px;
+  bottom: 20px;}
+  .icon_positionAA {position: absolute;
+    right: 25px;
+    bottom: 25px;}
+  
+  .global_place_content__inside_Right
+  {height: 460px;
+  width: 548px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 90px;
+  position: relative;
+  
+  background: none;
+  }
+  
+  .tomato {position: absolute;
+  z-index: 1;
+  top: -75px;
+  
+  }
+  
+  
+  .Our_Services {
+    font-size: 90px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.3;
+    text-align: right;
+    position: absolute;
+    top: 180px;
+    left: -80px;
+    z-index: 144;
+  }
+  
+  /* Blur */
+  .global_place_content__inside_Right img {
+      -webkit-filter: grayscale(0) blur(0);
+      filter: grayscale(0) blur(0);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+  }
+  .global_place_content__inside_Right:hover img {
+      -webkit-filter: grayscale(100%) blur(3px);
+      filter: grayscale(100%) blur(3px);
+  }
+  
+  
+  /* ----- Третя частина - Хурма  PARSIMON! --------------  */
+  
+
+
+.parsimon{ 
+   
+    height: 1536px;
+    width: 1500px;
+    margin: 0 auto;
+    background: #ffe92f;
+ 
+
+  &__header {
+      padding-top: 100px;
+      text-align: center;
+      &__title {
+        font-size: 90px;
+        font-family: "Raleway";
+        color: rgb(38, 38, 38);
+        font-weight: bold;
+        line-height: 1;      
+      }
+    
+      &__sub_title {
+          padding-top: 40px;
+          padding-bottom: 40px;
+          width: 600px;
+          height: 85px;
+          margin: 0 auto;
+        font-size: 17px;
+        font-family: "Raleway";
+        font-weight: 400;
+        color: rgb(38, 38, 38);
+        line-height: 1.588;
+      }
+  }
+
+  &__main {
+      box-sizing: border-box;
+      margin: 0 auto;
+      width: 1210px;
+      height: 1000px;
+        
+      &__peach {
+        width: 770px;
+        height: 550px;
+        float: left;
+        padding-right: 40px;
+        
+      }
+  }
+
+  .padding-top20 {padding-top: 20px;
+    padding-bottom: 25px;}
+  .yagoda3 {float: left;
+    padding-top: 0px;
+    padding-right: 35px;
+    }
+    .parsimon {display: inline;
+    
+}
+    .parsimon__button {margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 55px;
+margin-top: 50px;}
+
+
+}
+
+.button {
+   
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 55px;
+    z-index: 90;
+    font-family: "Raleway";
+    font-weight: 400;
+    border: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.35;
+    }
+
+    .Pasrbutton {background-color: rgb(85, 133, 162); }
+  
+
+// ---------------  hover effect -------------
+   /* Flashing */
+.button:focus {color: black; border: 5px solid rgb(128, 126, 126);
+}
+
+.Cahee2:focus{background: darken(rgb(255, 96, 51),20%); font-weight: 700;
+  letter-spacing: 1px;
+        box-shadow: 0px 9px 16px 0px rgba(0, 0, 0, 0.7);
+        transition: .3s ease;
+        font-size: 21px;
+}
+
+.Pasrbutton:focus {background: darken(rgb(85, 133, 162),10%); 
+  font-weight: 700;
+font-size: 22px;
+letter-spacing: 2px;
+box-shadow: 0px 9px 16px 0px rgba(0, 0, 0, 0.7);
+transition: .3s ease;
+border: 4px solid rgb(55, 64, 66);
+}
+
+
+.button:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s; 
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Shine */
+.parsimon__main{
+	position: relative;
+}
+.parsimon__main::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.parsimon__main:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+// ------------------------------------------------------
+
+// bilberry-----------------------------------------------
+
+.bilberry {
+    margin: 0 auto;
+    width: 1500px;
+    height: 500px;
+    background-image: url(bilberry.png);
+    border: 2px solid white;
+    
+
+
+    &__main {
+    width: 1500px;
+    height: 500px;
+   margin-top: 145px;
+    margin-left: 165px;
+
+         .Subscribe_To_Us {
+        font-size: 40px;
+        font-family: "Raleway";
+        color: rgb(38, 38, 38);
+        font-weight: bold;
+        line-height: 0.675;
+        padding-bottom: 35px;
+        
+        
+         }
+         .Dolor_sit_amet__consectetur_adipisicing_elit__s {
+            font-size: 17px;
+            font-family: "Raleway";
+            font-weight: 400;
+            color: rgb(38, 38, 38);
+            line-height: 1.588;
+            
+                     
+            width: 541px;
+            height: 43px;
+            
+          }
+          
+      
+    }
+
+
+    .form__input_first {
+        padding-left: 15px;
+        margin-top: 50px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(38, 38, 38);
+        background-color: rgba(38, 38, 38, 0);
+        
+        width: 525px;
+        height: 59px;
+        
+      }
+      .button__bilberry {
+        background-color: rgb(150, 185, 44);
+        margin-left: 30px;
+      }
+      .button__bilberry:focus {background: lighten(rgb(150, 185, 44),10%); 
+        font-weight: 700;
+        font-size: 21px;
+        color: rgb(126, 156, 35);
+        border-radius: 5px;
+        border: 5px solid yellow;
+        letter-spacing: 1px;
+        box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.7);
+        transition: .3s ease;
+        }
+}
+
+
+//  --------------------VIOLET ----------------------
+
+.violet 
+{
+    width: 1500px;
+    height: 864px;
+    margin: 0 auto;
+    background: #b07cf7;
+    color: white;
+    &__header 
+    {
+        text-align: center;
+        &__title 
+        {padding-top: 40px;
+            padding-bottom: 35px;
+            font-size: 90px;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            font-weight: 700;
+        }
+
+
+
+    }
+
+}
+
+.hynha {font-size: 17px;
+    font-family: "Releway", sans-serif;
+    width: 563px;
+    height: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255, 0.637);
+text-align: center;
+line-height: 1.471;
+font-weight: 200;
+
+}
+
+
+.violet__main {width: 1200px;
+    height: 535px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;}
+
+    
+.violet__box {
+    
+  width: 370px;
+  height: 310px;
+ 
+  position: relative;
+    &__bg
+    { box-sizing: border-box ;
+      border-radius: 5px;
+      background-color: rgba(38, 38, 38, 0.6);
+      
+      position: absolute;
+      left: 30px;
+      top: 30px;
+      width: 60px;
+      height: 60px;
+      z-index: 1;
+    }
+
+
+}
+
+.violet__p {background: none;
+}
+
+
+.violet__box__bg p:first-of-type {
+  font-size: 32px;
+  margin: 0;
+  line-height: 32px;
+  z-index: 2;
+  opacity: 1;
+  text-align: center;
+}
+
+.violet__box__bg p:last-of-type {
+  font-size: 21px;
+  font-weight: bold;
+  z-index: 2;
+  margin: 0;
+  line-height: 21px;
+  opacity: 1;
+  text-align: center;
+}
+
+.violet__text {
+  font-size: 20px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: left;
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  width: 307px;
+  height: 78px;
+  z-index: 34;
+  background: none;
+}
+
+.violet__text p:last-of-type {font-size: 13px;
+  opacity: 0.5;}
+
+
+
+
+
+  .violet__box:hover {     transform: scale(1.6);
+    letter-spacing: 3px;
+    opacity: 1;
+    transition: .5s ease;
+    text-shadow: 3px 4px 5px;
+ 
+  }
+
+
+ 
+  .violet__main:hover .violet__box:not(:hover) 
+  {opacity: 0.3; transition: 1s ease;}
+ 
+.but_violet {
+
+margin-left: 665px;
+
+    background-color: rgb(247, 43, 59);
+
+}
+
+.violet__header__title:hover {
+  transform: scale(1.3);
+  letter-spacing: 3px;
+  opacity: 1;
+  transition: .5s ease;
+  text-shadow: 3px 4px 5px black;
+}
+
+
+.but_violet:focus {background: darken(rgb(247, 43, 59),10%); 
+  font-weight: 700;
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 7px solid rgb(0, 0, 0);
+  letter-spacing: 1px;
+  box-shadow: 10px 10px 18px 10px rgba(0, 0, 0, 0.7);
+  transition: .3s ease;
+  }
+  
+
+
+  // ------------Foooter --------------------------
+
+
+  .bg_footer {
+    width: 1500px;
+    height: 866px;
+    background-image: url(footer/img.png);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  
+  }
+  
+  .bg_footer:hover {  box-shadow: inset 0px 0px 30px 30px rgba(0,0,0,0.9);}
+  
+  .title__Contact:hover {
+    transform: scale(1.3);
+    letter-spacing: 3px;
+    opacity: 1;
+    transition: .5s ease;
+    text-shadow: 3px 4px 5px rgb(95, 95, 95);
+  }
+  .header {                                                                                           
+
+    width: 1300px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title {
+    width: 360px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title__Contact {
+    font-size: 90px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    font-weight: bold;
+    line-height: 0.278;
+    margin-top: 0;
+    padding-top: 110px;
+  }
+  
+  .title__text {
+    font-size: 17px;
+    font-family: "Raleway";
+    font-weight: 300;
+    color: rgb(38, 38, 38);
+    line-height: 1.471;
+    text-align: center;
+    z-index: 30;
+  }
+  
+  .border {
+    border: 2px solid red;
+  }
+  /* --- body ------ */
+  .body_content {
+    width: 1000px;
+    height: 559px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .body_content_form {
+    width: 500px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* --- left block ------ */
+  .form__box {
+    height: 50px;
+    background: #00c4c491;
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    font-weight: 300;
+    z-index: 21;
+    box-sizing: border-box;
+  }
+
+ 
+  
+  .special {
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.667;
+    text-align: left;
+    z-index: 26;
+  }
+  
+  .specialBIG {
+    height: 250px;
+  }
+  
+  .borderG {
+    border: 1px solid green;
+  }
+  
+  /* --- right block ------ */
+  .body_content__inform {
+    width: 330px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .body_content__inform__text {
+    height: 43px;
+    font-size: 17px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  
+  .light {
+    margin: 0;
+    font-weight: 300;
+  }
+  /* --- footer ------ */
+  .footer {
+    width: 1500px;
+    height: 90px;
+    background: #262626;
+    position: absolute;
+    bottom: -90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .Company__All_right_reserved_ {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(185, 185, 185);
+    line-height: 1.563;
+    font-weight: 300;
+  }
+  
+  .made {
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgb(185, 185, 185);
+    line-height: 1.667;
+  }
+  
+  span {
+    color: red;
+  }
+  
+  .form__input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 93%;
+    color: white;
+       
+    
+    padding: 17px;
+  }
+  
+
+  .form__input:focus {
+    
+    background: #00c4c4;
+  }
+  
+  input::placeholder {
+    color: rgba(119, 119, 119, 0.815);
+    font-style: italic;
+    letter-spacing: 3px;
+  }
+  
+  .Mike {font-weight: 700;
+  color: green}
+
+  .strus:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
